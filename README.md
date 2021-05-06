@@ -14,7 +14,13 @@ and also a filter for showing us only parties with some letters or words.
 
 You can open various instances at once so you can filter for different game names.
 
-*The "D2GLS.exe" file already compiled is in the "EXE_FINAL" folder
+*If you want only the executable file, you got it in the releases section.
+https://github.com/laresistenciadelbit/d2gls/releases/
+
+**TO RUN IT, IT REQUIRES NPCAP LIBRARY:
+https://nmap.org/npcap/dist/npcap-1.31.exe
+
+*tested in Windows 7 & 10
 
 ## [SPANISH]
 
@@ -28,4 +34,10 @@ y también un filtro para mostrarnos solo las partidas por letras o palabras.
 Puedes abrir varias instancias del programa a la vez y así puedes filtrar distintos
 nombres de partidas que quieras.
 
-*El fichero ejecutable "D2GLS.exe" ya compilado está en la carpeta "EXE"
+*Si solo quieres el fichero ejecutable, lo tienes en la sección de releases:
+https://github.com/laresistenciadelbit/d2gls/releases/
+
+**PARA QUE FUNCIONE REQUIERE INSTALAR LA LIBRERÍA NPCAP:
+https://nmap.org/npcap/dist/npcap-1.31.exe
+
+*Testeado en Windows 7 y 10

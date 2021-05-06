@@ -251,7 +251,12 @@ public class gamelistsniffer extends Thread
 		        }
 	        }
 	  
-	        PcapIf device = alldevs.get(0); // We know we have atleast 1 device  
+	        PcapIf device;
+            if( !alldevs.get(0).getDescription().contains("loopback"))
+                device = alldevs.get(0);
+            else
+                device = alldevs.get(1);
+            
 	        System.out  
 	            .printf("\nChoosing '%s' on your behalf:\n",  
 	                (device.getDescription() != null) ? device.getDescription()  
